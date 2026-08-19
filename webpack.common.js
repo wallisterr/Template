@@ -4,7 +4,6 @@ import test from "node:test";
 import { watchFile } from "node:fs";
 import { fileURLToPath } from 'node:url';
 export default {
-  mode: "production",
   entry: "./src/scripts.js",
   output: {
     filename: "main.js",
